@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Finanțări active România | SMART</title>
+<meta name="description" content="Apeluri de finanțare deschise în România: Programul Regional, PEO, PIDS, Fondul de Modernizare și Tranziție Justă, cu termene și linkuri oficiale. Actualizat zilnic de Centrul de Dezvoltare SMART.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Questrial&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#042E61; --navy-2:#0F486E; --blue:#167BF3; --sky:#B1D2FB; --sky-2:#E8F1FE;
+    --ink:#1B2430; --muted:#5B6675; --line:#DCE3EC; --bg:#FFFFFF; --panel:#F6F8FB;
+    --urgent:#C62828; --warn:#B26A00; --ok:#1E7B4D;
+    --radius:10px;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font:15px/1.5 Lato,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  .wrap{max-width:1180px;margin:0 auto;padding:24px 16px 40px}
+  header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:18px}
+  h1{font-family:Questrial,"Century Gothic",Lato,sans-serif;font-weight:400;color:var(--navy);font-size:clamp(1.5rem,3.2vw,2.1rem);line-height:1.15;margin:0 0 6px}
+  .sub{color:var(--muted);font-size:.92rem;margin:0}
+  .updated{font-size:.82rem;color:var(--muted);white-space:nowrap}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:0 0 18px}
+  .stat{background:var(--sky-2);border-radius:var(--radius);padding:12px 14px}
+  .stat b{display:block;font-family:Questrial,Lato,sans-serif;font-weight:400;font-size:1.7rem;color:var(--navy);line-height:1.1}
+  .stat span{font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+  .controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px}
+  .chip{border:1.5px solid var(--line);background:#fff;color:var(--ink);border-radius:999px;padding:6px 13px;font:inherit;font-size:.85rem;cursor:pointer}
+  .chip:hover{border-color:var(--navy-2)}
+  .chip[aria-pressed="true"]{background:var(--navy);border-color:var(--navy);color:#fff}
+  .search{flex:1 1 220px;min-width:0;max-width:340px;margin-left:auto;border:1.5px solid var(--line);border-radius:999px;padding:7px 14px;font:inherit;font-size:.88rem}
+  .search:focus{outline:2px solid var(--sky);border-color:var(--blue)}
+  .list{display:grid;gap:10px}
+  .card{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px 18px;align-items:center;border:1px solid var(--line);border-left:4px solid var(--sky);border-radius:var(--radius);padding:14px 16px;background:#fff}
+  .card.urgent{border-left-color:var(--urgent)}
+  .card.soon{border-left-color:var(--warn)}
+  .meta{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;margin-bottom:4px;font-size:.8rem;color:var(--muted)}
+  .tag{display:inline-block;border-radius:4px;padding:2px 8px;font-size:.72rem;font-weight:700;letter-spacing:.03em;text-transform:uppercase}
+  .t-reg{background:#DBEAFE;color:#1E40AF}.t-peo{background:#DCFCE7;color:#166534}.t-pids{background:#FEF3C7;color:#854D0E}
+  .t-ptj{background:#D1FAE5;color:#065F46}.t-fm{background:#FFEDD5;color:#9A3412}
+  .title{font-weight:700;font-size:1rem;color:var(--ink);margin:0}
+  .benef{margin:4px 0 0;font-size:.86rem;color:var(--muted)}
+  .benef b{color:var(--ink);font-weight:700}
+  .group{font-family:Questrial,Lato,sans-serif;color:var(--navy);font-size:1.15rem;font-weight:400;margin:14px 0 2px;padding-bottom:4px;border-bottom:2px solid var(--sky)}
+  .group:first-child{margin-top:0}
+  .right{display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+  .deadline{text-align:right;font-size:.85rem;color:var(--muted);white-space:nowrap}
+  .deadline strong{display:block;color:var(--ink);font-size:.95rem}
+  .left-days{display:inline-block;margin-top:2px;border-radius:999px;padding:1px 9px;font-size:.74rem;font-weight:700;color:#fff;background:var(--ok)}
+  .urgent .left-days{background:var(--urgent)} .soon .left-days{background:var(--warn)}
+  .actions{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+  .btn{display:inline-flex;align-items:center;gap:6px;border-radius:7px;padding:7px 12px;font:inherit;font-size:.84rem;font-weight:700;text-decoration:none;white-space:nowrap;cursor:pointer}
+  .btn-out{border:1.5px solid var(--line);color:var(--navy);background:#fff}
+  .btn-out:hover{border-color:var(--navy)}
+  .btn-main{border:1.5px solid var(--navy);background:var(--navy);color:#fff}
+  .btn-main:hover{background:var(--navy-2)}
+  .empty,.err{padding:36px 16px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:var(--radius)}
+  .note{margin-top:22px;padding:14px 16px;background:var(--panel);border-radius:var(--radius);font-size:.85rem;color:var(--muted)}
+  .note a{color:var(--navy);font-weight:700}
+  @media (max-width:640px){
+    .card{grid-template-columns:1fr}
+    .right{flex-direction:row;align-items:center;justify-content:space-between;flex-wrap:wrap}
+    .deadline{text-align:left}
+    .search{max-width:none;margin-left:0}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>Finanțări active în România</h1>
+      <p class="sub">Programul Regional · PEO · PIDS · Fondul de Modernizare · Tranziție Justă</p>
+    </div>
+    <div class="updated" id="updated">Se încarcă…</div>
+  </header>
+
+  <section class="stats" aria-label="Sumar">
+    <div class="stat"><b id="s-total">–</b><span>Apeluri deschise</span></div>
+    <div class="stat"><b id="s-urgent">–</b><span>Termen sub 30 de zile</span></div>
+    <div class="stat"><b id="s-prog">–</b><span>Programe</span></div>
+  </section>
+
+  <div class="controls" role="toolbar" aria-label="Filtre">
+    <div id="chips" style="display:contents"></div>
+    <input class="search" id="q" type="search" placeholder="Caută după titlu, regiune sau beneficiar…" aria-label="Caută">
+  </div>
+
+  <div class="list" id="list" aria-live="polite"></div>
+
+  <p class="note">
+    Lista este verificată zilnic din surse oficiale (ADR-uri, MIPE, Ministerul Energiei), inclusiv prelungirile de termen.
+    Pentru fiecare apel, consultanții <strong>Centrului de Dezvoltare SMART</strong> pregătesc o fișă de sinteză și grila de evaluare.
+    Scrie-ne la <a href="mailto:office@smart.org.ro">office@smart.org.ro</a> și ți le trimitem.
+  </p>
+</div>
+
+<script>
+(function(){
+  var CONTACT = 'office@smart.org.ro';
+  var PROGRAMS = ['Program Regional','Fondul de Modernizare','PEO','PIDS','Tranziție Justă'];
+  var TAG = {'Program Regional':'t-reg','PEO':'t-peo','PIDS':'t-pids','Tranziție Justă':'t-ptj','Fondul de Modernizare':'t-fm'};
+  var state = {rows:[], prog:'Toate', q:''};
+
+  function el(tag, cls, text){var e=document.createElement(tag); if(cls)e.className=cls; if(text!=null)e.textContent=text; return e;}
+  function today(){var d=new Date(); d.setHours(0,0,0,0); return d;}
+  function daysLeft(t){return t ? Math.round((new Date(t+'T00:00:00') - today())/86400000) : null;}
+  function fmt(t){return new Date(t+'T00:00:00').toLocaleDateString('ro-RO',{day:'numeric',month:'long',year:'numeric'});}
+  function norm(s){return (s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');}
+  function rank(p){var i=PROGRAMS.indexOf(p); return i<0?PROGRAMS.length:i;}
+  function active(r){var d=daysLeft(r.termen); return d===null || d>=0;}
+
+  function mailto(r){
+    var subj = 'Solicitare fișă apel: ' + r.titlu;
+    var body = 'Bună ziua,\n\nVă rog să-mi trimiteți fișa de sinteză și grila de evaluare pentru apelul:\n' +
+      r.titlu + ' (' + r.program + (r.regiune ? ', ' + r.regiune : '') + ')\n' + r.url +
+      '\n\nNume:\nOrganizație:\nTelefon:\n\nMulțumesc!';
+    return 'mailto:' + CONTACT + '?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(body);
+  }
+
+  function renderChips(){
+    var box=document.getElementById('chips'); box.textContent='';
+    ['Toate'].concat(PROGRAMS).forEach(function(p){
+      var b=el('button','chip',p); b.type='button';
+      b.setAttribute('aria-pressed', String(state.prog===p));
+      b.addEventListener('click',function(){state.prog=p; renderChips(); renderList();});
+      box.appendChild(b);
+    });
+  }
+
+  function renderList(){
+    var list=document.getElementById('list'); list.textContent='';
+    var q=norm(state.q);
+    var rows=state.rows.filter(active).filter(function(r){
+      return (state.prog==='Toate'||r.program===state.prog) &&
+        (!q || norm(r.titlu+' '+(r.regiune||'')+' '+r.program+' '+(r.beneficiari||'')).indexOf(q)>=0);
+    }).sort(function(a,b){
+      var pa=rank(a.program), pb=rank(b.program); if(pa!==pb)return pa-pb;
+      if(!a.termen&&!b.termen)return 0; if(!a.termen)return 1; if(!b.termen)return -1;
+      return a.termen<b.termen?-1:a.termen>b.termen?1:0;
+    });
+    if(!rows.length){list.appendChild(el('div','empty','Niciun apel deschis pentru selecția curentă.')); return;}
+    var lastProg=null;
+    rows.forEach(function(r){
+      if(r.program!==lastProg){ lastProg=r.program; list.appendChild(el('h2','group',r.program)); }
+      var d=daysLeft(r.termen);
+      var card=el('article','card'+(d!==null&&d<=7?' urgent':d!==null&&d<=30?' soon':''));
+      var left=el('div');
+      var meta=el('div','meta');
+      meta.appendChild(el('span','tag '+(TAG[r.program]||'t-reg'),r.program));
+      if(r.regiune) meta.appendChild(el('span',null,r.regiune));
+      left.appendChild(meta);
+      left.appendChild(el('h3','title',r.titlu));
+      if(r.beneficiari){ var bp=el('p','benef'); bp.appendChild(el('b',null,'Cine poate aplica: ')); bp.appendChild(document.createTextNode(r.beneficiari)); left.appendChild(bp); }
+      var right=el('div','right');
+      var dl=el('div','deadline');
+      if(r.termen){
+        dl.appendChild(document.createTextNode('Termen de depunere'));
+        dl.appendChild(el('strong',null,fmt(r.termen)));
+        dl.appendChild(el('span','left-days', d===0?'Astăzi':d===1?'Mâine':d+' zile'));
+      } else {
+        dl.appendChild(document.createTextNode('Termen: verificați ghidul'));
+      }
+      var act=el('div','actions');
+      var a1=el('a','btn btn-out','Apel oficial ↗'); a1.href=r.url; a1.target='_blank'; a1.rel='noopener';
+      var a2=el('a','btn btn-main','Cere fișa'); a2.href=mailto(r); a2.target='_top';
+      act.appendChild(a1); act.appendChild(a2);
+      right.appendChild(dl); right.appendChild(act);
+      card.appendChild(left); card.appendChild(right);
+      list.appendChild(card);
+    });
+  }
+
+  function renderStats(meta){
+    var act=state.rows.filter(active);
+    document.getElementById('s-total').textContent=act.length;
+    document.getElementById('s-urgent').textContent=act.filter(function(r){var d=daysLeft(r.termen);return d!==null&&d<=30;}).length;
+    document.getElementById('s-prog').textContent=new Set(act.map(function(r){return r.program;})).size;
+    var at = meta && meta.actualizat ? new Date(meta.actualizat) : null;
+    document.getElementById('updated').textContent = at && !isNaN(at) ?
+      'Actualizat: ' + at.toLocaleDateString('ro-RO',{day:'numeric',month:'long',year:'numeric'}) : '';
+  }
+
+  document.getElementById('q').addEventListener('input',function(e){state.q=e.target.value; renderList();});
+
+  fetch('data.json',{cache:'no-cache'}).then(function(r){if(!r.ok)throw new Error(r.status); return r.json();})
+    .then(function(data){
+      var rows = Array.isArray(data) ? data : (data.apeluri||[]);
+      state.rows = rows.filter(function(r){return r && r.titlu && r.url;});
+      renderChips(); renderStats(Array.isArray(data)?null:data); renderList();
+    })
+    .catch(function(){
+      document.getElementById('updated').textContent='';
+      var l=document.getElementById('list'); l.textContent='';
+      l.appendChild(el('div','err','Lista nu a putut fi încărcată acum. Reîncercați peste câteva minute.'));
+    });
+
+  // Ajustează automat înălțimea când pagina e afișată într-un iframe pe smart.org.ro
+  function postHeight(){ try{ parent.postMessage({type:'smart-finantari-height', height:document.documentElement.scrollHeight}, '*'); }catch(e){} }
+  if (window.parent !== window) { new ResizeObserver(postHeight).observe(document.body); window.addEventListener('load',postHeight); }
+})();
+</script>
+</body>
+</html>

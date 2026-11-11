@@ -1,0 +1,11 @@
+<!-- Lipiți acest bloc într-un bloc „HTML personalizat" pe pagina de pe smart.org.ro.
+     Înlocuiți ADRESA_PAGINII cu adresa GitHub Pages (ex. https://NUME-CONT.github.io/finantari-active/). -->
+<iframe id="smart-finantari" src="ADRESA_PAGINII" title="Finanțări active în România"
+        style="width:100%;border:0;min-height:900px;display:block" loading="lazy"></iframe>
+<script>
+  window.addEventListener('message', function (e) {
+    if (e.data && e.data.type === 'smart-finantari-height') {
+      document.getElementById('smart-finantari').style.height = (e.data.height + 20) + 'px';
+    }
+  });
+</script>
