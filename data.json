@@ -9,7 +9,11 @@
    "titlu": "P3 – Eficiență energetică clădiri rezidențiale – Orașe",
    "beneficiari": "UAT orașe din Regiunea Nord-Est (blocuri de locuințe)",
    "termen": "2026-11-16",
-   "url": "https://regionordest.ro/apel-proiect/p3-eficienta-energetica-cladiri-rezidentiale-orase/"
+   "url": "https://regionordest.ro/apel-proiect/p3-eficienta-energetica-cladiri-rezidentiale-orase/",
+   "suma_min": null,
+   "suma_max": null,
+   "moneda": null,
+   "suma_nota": null
   },
   {
    "id": "prnordest-p3-rezidential-mrj",
@@ -18,7 +22,11 @@
    "titlu": "P3 – Eficiență energetică clădiri rezidențiale – MRJ și Municipii",
    "beneficiari": "UAT municipii și municipii reședință de județ din Nord-Est (blocuri)",
    "termen": "2026-11-16",
-   "url": "https://regionordest.ro/apel-proiect/p3-eficienta-energetica-cladiri-rezidentiale-mrj-si-municipii/"
+   "url": "https://regionordest.ro/apel-proiect/p3-eficienta-energetica-cladiri-rezidentiale-mrj-si-municipii/",
+   "suma_min": null,
+   "suma_max": null,
+   "moneda": null,
+   "suma_nota": null
   },
   {
    "id": "prnordest-p1-clustere",
@@ -27,7 +35,11 @@
    "titlu": "P1 – Dezvoltarea inovativă a clusterelor",
    "beneficiari": "Asociații/fundații care administrează un cluster de inovare (Nord-Est)",
    "termen": "2026-11-23",
-   "url": "https://regionordest.ro/apel-proiect/p1-dezvoltarea-inovativa-a-clusterelor/"
+   "url": "https://regionordest.ro/apel-proiect/p1-dezvoltarea-inovativa-a-clusterelor/",
+   "suma_min": 300000,
+   "suma_max": 600000,
+   "moneda": "EUR",
+   "suma_nota": "finanțare nerambursabilă"
   },
   {
    "id": "prnordest-p2-digitale-cj",
@@ -36,7 +48,11 @@
    "titlu": "P2 – Servicii publice digitale noi – Consilii Județene",
    "beneficiari": "Exclusiv ADI EURONEST (consiliile județene din Nord-Est)",
    "termen": "2026-12-30",
-   "url": "https://regionordest.ro/apel-proiect/p2-servicii-publice-digitale-noi-cj/"
+   "url": "https://regionordest.ro/apel-proiect/p2-servicii-publice-digitale-noi-cj/",
+   "suma_min": null,
+   "suma_max": null,
+   "moneda": null,
+   "suma_nota": null
   },
   {
    "id": "prnordest-capacitate-admin",
@@ -45,7 +61,11 @@
    "titlu": "Capacitate administrativă – Cod de intervenție 170",
    "beneficiari": "Exclusiv ADR Nord-Est",
    "termen": "2029-06-29",
-   "url": "https://regionordest.ro/apel-proiect/capacitate-administrativa-cod-de-interventie-170/"
+   "url": "https://regionordest.ro/apel-proiect/capacitate-administrativa-cod-de-interventie-170/",
+   "suma_min": null,
+   "suma_max": null,
+   "moneda": null,
+   "suma_nota": null
   },
   {
    "id": "prcentru-infra-verde",
@@ -54,7 +74,11 @@
    "titlu": "Acțiunea 3.3 – Investiții în infrastructura verde și albastră în mediul urban",
    "beneficiari": "UAT municipii din Regiunea Centru, singure sau lider de parteneriat cu UAT din ZUF/ZM",
    "termen": "2026-12-02",
-   "url": "https://www.adrcentru.ro/comunicare/se-prelungeste-perioada-de-depunere-in-cadrul-apelului-competitiv-pentru-actiunea-3-3-investitii-in-infrastructura-verde-si-albastra-in-mediul-urban-regional/"
+   "url": "https://www.adrcentru.ro/comunicare/se-prelungeste-perioada-de-depunere-in-cadrul-apelului-competitiv-pentru-actiunea-3-3-investitii-in-infrastructura-verde-si-albastra-in-mediul-urban-regional/",
+   "suma_min": 300000,
+   "suma_max": 5000000,
+   "moneda": "EUR",
+   "suma_nota": "valoare eligibilă"
   },
   {
    "id": "prse-edu",
@@ -63,7 +87,11 @@
    "titlu": "Acțiunea 5.2 – Infrastructură educațională",
    "beneficiari": "UAT, instituții publice locale, școli de stat din Sud-Est (lider UAT)",
    "termen": "2026-12-30",
-   "url": "https://www.adrse.ro/ADR/Anunturi"
+   "url": "https://www.adrse.ro/ADR/Anunturi",
+   "suma_min": null,
+   "suma_max": null,
+   "moneda": null,
+   "suma_nota": null
   },
   {
    "id": "prsudmuntenia-ev",
@@ -72,7 +100,11 @@
    "titlu": "Infrastructură de încărcare a vehiculelor electrice",
    "beneficiari": "UAT (județ, municipiu, oraș, comună) din Sud-Muntenia și parteneriatele lor",
    "termen": "2026-12-02",
-   "url": "https://2021-2027.adrmuntenia.ro/"
+   "url": "https://2021-2027.adrmuntenia.ro/",
+   "suma_min": null,
+   "suma_max": null,
+   "moneda": null,
+   "suma_nota": null
   },
   {
    "id": "pfm-contorizare",
@@ -81,7 +113,11 @@
    "titlu": "Contorizare inteligentă (100 mil. EUR)",
    "beneficiari": "Cei 4 operatori de distribuție concesionari (DEER, Delgaz Grid, Rețele El. Ro., Distribuție Oltenia)",
    "termen": "2026-12-02",
-   "url": "https://energie.gov.ro/wp-content/uploads/2026/07/Anunt-lansare-apel-proiecte-contorizare-inteligenta.pdf"
+   "url": "https://energie.gov.ro/wp-content/uploads/2026/07/Anunt-lansare-apel-proiecte-contorizare-inteligenta.pdf",
+   "suma_min": null,
+   "suma_max": null,
+   "moneda": null,
+   "suma_nota": null
   },
   {
    "id": "peo-scoli-viitor",
@@ -90,7 +126,11 @@
    "titlu": "Școli pentru viitor 2026 – educație, STEAM și alfabetizare (52,8 mil. EUR)",
    "beneficiari": "Școli acreditate, ISJ/ISMB, CJRAE (lider); parteneri: universități, ONG etc.",
    "termen": "2026-11-27",
-   "url": "https://mfe.gov.ro/peos/apeluri-de-proiecte/"
+   "url": "https://mfe.gov.ro/peos/apeluri-de-proiecte/",
+   "suma_min": 700000,
+   "suma_max": 1000000,
+   "moneda": "EUR",
+   "suma_nota": "valoare eligibilă; min. 400 elevi"
   },
   {
    "id": "pids-fara-adapost",
@@ -99,7 +139,11 @@
    "titlu": "Servicii de sprijin pentru incluziunea socială a persoanelor fără adăpost (26,8 mil. EUR)",
    "beneficiari": "Furnizori de servicii sociale acreditați (publici/privați), DGASPC, SPAS/DAS sau UAT",
    "termen": "2026-11-30",
-   "url": "https://mfe.gov.ro/ghiduri_pids/apelurile-de-tip-competitiv-servicii-de-sprijin-pentru-incluziunea-sociala-a-persoanelor-fara-adapost-finantate-din-programul-incluziune-si-demnitate-sociala-2021-2027-prioritatea-p/"
+   "url": "https://mfe.gov.ro/ghiduri_pids/apelurile-de-tip-competitiv-servicii-de-sprijin-pentru-incluziunea-sociala-a-persoanelor-fara-adapost-finantate-din-programul-incluziune-si-demnitate-sociala-2021-2027-prioritatea-p/",
+   "suma_min": 201000,
+   "suma_max": 1000000,
+   "moneda": "EUR",
+   "suma_nota": "valoare eligibilă"
   },
   {
    "id": "ptj-comunitati-energie",
@@ -108,7 +152,11 @@
    "titlu": "Comunități de energie regenerabilă – energie verde și mobilitate nepoluantă (102,8 mil. EUR)",
    "beneficiari": "UAT sau comunități de energie regenerabilă din Gorj, Hunedoara, Dolj, Galați, Prahova, Mureș",
    "termen": "2027-03-31",
-   "url": "https://mfe.gov.ro/ghiduri_ptj/ghidul-solicitantului-pentru-actiunea-energie-verde-accesibila-si-mobilitate-nepoluanta-componenta-dezvoltarea-surselor-de-energie-regenerabila-pentru/"
+   "url": "https://mfe.gov.ro/ghiduri_ptj/ghidul-solicitantului-pentru-actiunea-energie-verde-accesibila-si-mobilitate-nepoluanta-componenta-dezvoltarea-surselor-de-energie-regenerabila-pentru/",
+   "suma_min": 100000,
+   "suma_max": 20000000,
+   "moneda": "EUR",
+   "suma_nota": "valoare eligibilă"
   },
   {
    "id": "ptj-locuinte-prahova",
@@ -117,7 +165,11 @@
    "titlu": "Locuințe la prețuri accesibile și durabile (PTJ Prahova)",
    "beneficiari": "UAT din județul Prahova (comune, orașe, municipii, județ)",
    "termen": "2027-02-03",
-   "url": "https://www.adrmuntenia.ro/apeluri-ptj/static/1781"
+   "url": "https://www.adrmuntenia.ro/apeluri-ptj/static/1781",
+   "suma_min": 200000,
+   "suma_max": 15000000,
+   "moneda": "EUR",
+   "suma_nota": "valoare eligibilă"
   },
   {
    "id": "prsudmuntenia-regenerare-urbana",
@@ -126,7 +178,11 @@
    "titlu": "Regenerare urbană – Prioritatea P6 (PRSM_A32)",
    "beneficiari": "UAT municipii reședință de județ din Sud-Muntenia (și parteneriate cu UAT din zona funcțională)",
    "termen": "2027-01-08",
-   "url": "https://2021-2027.adrmuntenia.ro/prelungirea-termenelor-de-depunere-pentru-apelurile-dedicate-regenerarii-si-mobi/news/655"
+   "url": "https://2021-2027.adrmuntenia.ro/prelungirea-termenelor-de-depunere-pentru-apelurile-dedicate-regenerarii-si-mobi/news/655",
+   "suma_min": null,
+   "suma_max": null,
+   "moneda": null,
+   "suma_nota": null
   },
   {
    "id": "prsudmuntenia-mobilitate-urbana",
@@ -135,7 +191,11 @@
    "titlu": "Mobilitate urbană multimodală sustenabilă – Prioritatea P3 (PRSM_A26)",
    "beneficiari": "UAT municipii reședință de județ din Sud-Muntenia (lider), cu UAT orașe/comune din zona funcțională",
    "termen": "2027-01-20",
-   "url": "https://2021-2027.adrmuntenia.ro/prelungirea-termenelor-de-depunere-pentru-apelurile-dedicate-regenerarii-si-mobi/news/655"
+   "url": "https://2021-2027.adrmuntenia.ro/prelungirea-termenelor-de-depunere-pentru-apelurile-dedicate-regenerarii-si-mobi/news/655",
+   "suma_min": 500000,
+   "suma_max": 25000000,
+   "moneda": "EUR",
+   "suma_nota": "valoare eligibilă"
   },
   {
    "id": "prse-6-2-turism-non-urban",
@@ -144,7 +204,11 @@
    "titlu": "Acțiunea 6.2 – Valorificarea potențialului turistic în zone non-urbane (PRSE/6/6.2/1/2025)",
    "beneficiari": "UAT județe/comune, ADI, instituții publice, unități de cult din zona non-urbană Sud-Est",
    "termen": "2026-12-30",
-   "url": "https://regiosudest.ro/comunicare/anunturi-si-comunicate/prioritatea-6/corrigendum-nr-5-valorificarea-potentialului-turistic-in-zone-non-urbane"
+   "url": "https://regiosudest.ro/comunicare/anunturi-si-comunicate/prioritatea-6/corrigendum-nr-5-valorificarea-potentialului-turistic-in-zone-non-urbane",
+   "suma_min": null,
+   "suma_max": null,
+   "moneda": null,
+   "suma_nota": null
   },
   {
    "id": "prse-1-5-parcuri-industriale",
@@ -153,7 +217,11 @@
    "titlu": "Acțiunea 1.5 – Infrastructuri suport de afaceri (parcuri industriale) (PRSE/1.5/A/1/2026)",
    "beneficiari": "Administratori sau fondatori de parcuri industriale (UAT, societăți, cooperative) din Sud-Est",
    "termen": "2027-02-26",
-   "url": "https://regiosudest.ro/ghiduri/prioritatea-1/apeluri-active/actiunea-1-5-sprijinirea-companiilor-prin-intermediul-infrastructurilor-suport-de-afaceri-parcuri-industriale-11-08-2026"
+   "url": "https://regiosudest.ro/ghiduri/prioritatea-1/apeluri-active/actiunea-1-5-sprijinirea-companiilor-prin-intermediul-infrastructurilor-suport-de-afaceri-parcuri-industriale-11-08-2026",
+   "suma_min": null,
+   "suma_max": null,
+   "moneda": null,
+   "suma_nota": null
   },
   {
    "id": "prnv-parcuri-specializare-inteligenta",
@@ -162,7 +230,11 @@
    "titlu": "Sprijinirea investițiilor inițiale ale IMM-urilor în parcuri de specializare inteligentă (PRNV/2024/132.A.2/1)",
    "beneficiari": "IMM-uri cu contract de concesiune într-un parc de specializare inteligentă (Nord-Vest)",
    "termen": "2026-12-31",
-   "url": "https://regionordvest.ro/en/apel-prnv-2024-132-a-2-1-sprijinirea-dezvoltarii-unor-investitii-initiale-ale-unor-imm-uri-in-cadrul-parcurilor-de-specializare-inteligenta/"
+   "url": "https://regionordvest.ro/en/apel-prnv-2024-132-a-2-1-sprijinirea-dezvoltarii-unor-investitii-initiale-ale-unor-imm-uri-in-cadrul-parcurilor-de-specializare-inteligenta/",
+   "suma_min": 200000,
+   "suma_max": 2500000,
+   "moneda": "EUR",
+   "suma_nota": "finanțare nerambursabilă / IMM"
   },
   {
    "id": "prnv-dte2-documentatii",
@@ -171,7 +243,11 @@
    "titlu": "DTE2 – Pregătirea documentațiilor tehnico-economice pentru perioada de programare următoare",
    "beneficiari": "Parteneriat ADR Nord-Vest (lider) + UAT/ADI, după domeniul investiției",
    "termen": "2027-01-29",
-   "url": "https://regionordvest.ro/en/dte2-sprijin-pentru-pregatirea-documentatiilor-tehnico-economice-pentru-proiecte-care-vizeaza-urmatoarea-perioada-de-programare/"
+   "url": "https://regionordvest.ro/en/dte2-sprijin-pentru-pregatirea-documentatiilor-tehnico-economice-pentru-proiecte-care-vizeaza-urmatoarea-perioada-de-programare/",
+   "suma_min": null,
+   "suma_max": null,
+   "moneda": null,
+   "suma_nota": null
   },
   {
    "id": "peo-educatie-timpurie",
@@ -180,7 +256,11 @@
    "titlu": "Diversificarea și flexibilizarea serviciilor de educație timpurie – relansare 2026 (81,6 mil. EUR)",
    "beneficiari": "Autorități publice locale, consilii județene, ISJ (lider); parteneri: grădinițe, ONG",
    "termen": "2026-11-27",
-   "url": "https://mfe.gov.ro/peo-lanseaza-apelul-de-tip-competitiv-diversificarea-si-flexibilizarea-serviciilor-de-educatie-timpurie-relansare-2026-finantat-din-programul-educatie-si-ocupare-2021-2027/"
+   "url": "https://mfe.gov.ro/peo-lanseaza-apelul-de-tip-competitiv-diversificarea-si-flexibilizarea-serviciilor-de-educatie-timpurie-relansare-2026-finantat-din-programul-educatie-si-ocupare-2021-2027/",
+   "suma_min": 201000,
+   "suma_max": 5000000,
+   "moneda": "EUR",
+   "suma_nota": "valoare eligibilă"
   },
   {
    "id": "pfm-e-drive-m1",
@@ -189,7 +269,11 @@
    "titlu": "[ÎN CONSULTARE] e-DRIVE 2026 – Măsura 1: IMM-uri, ajutor de minimis (15 mil. EUR) – consultare publică până la 18.11.2026",
    "beneficiari": "IMM-uri (micro, mici, mijlocii) înregistrate la ONRC",
    "termen": "2026-11-18",
-   "url": "https://fonduri.mt.ro/transparenta/consultare-publica/fondul-pentru-modernizare/fm-mti-demareaza-procesul-de-consultare-publica-pentru-ghidurile-solicitantului-aferente-masurilor-1-si-2-ale-schemei-e-drive"
+   "url": "https://fonduri.mt.ro/transparenta/consultare-publica/fondul-pentru-modernizare/fm-mti-demareaza-procesul-de-consultare-publica-pentru-ghidurile-solicitantului-aferente-masurilor-1-si-2-ale-schemei-e-drive",
+   "suma_min": null,
+   "suma_max": null,
+   "moneda": null,
+   "suma_nota": null
   },
   {
    "id": "pfm-e-drive-m2",
@@ -198,7 +282,11 @@
    "titlu": "[ÎN CONSULTARE] e-DRIVE 2026 – Măsura 2: transportatori de pasageri, ajutor de stat (41,9 mil. EUR) – consultare publică până la 18.11.2026",
    "beneficiari": "Operatori de transport rutier de pasageri (IMM și întreprinderi mari)",
    "termen": "2026-11-18",
-   "url": "https://fonduri.mt.ro/transparenta/consultare-publica/fondul-pentru-modernizare/fm-mti-demareaza-procesul-de-consultare-publica-pentru-ghidurile-solicitantului-aferente-masurilor-1-si-2-ale-schemei-e-drive"
+   "url": "https://fonduri.mt.ro/transparenta/consultare-publica/fondul-pentru-modernizare/fm-mti-demareaza-procesul-de-consultare-publica-pentru-ghidurile-solicitantului-aferente-masurilor-1-si-2-ale-schemei-e-drive",
+   "suma_min": null,
+   "suma_max": null,
+   "moneda": null,
+   "suma_nota": null
   },
   {
    "id": "prse-1-6-iti-delta",
@@ -207,7 +295,11 @@
    "titlu": "Acțiunea 1.6 Op. A.1 – Creșterea competitivității microîntreprinderilor din ITI Delta Dunării (PRSE/1.6/A.1/ITI/1/2026)",
    "beneficiari": "Microîntreprinderi cu sediu/punct de lucru în arealul ITI Delta Dunării",
    "termen": "2027-01-29",
-   "url": "https://regiosudest.ro/ghiduri/prioritatea-1/apeluri-active/stimularea-activitatilor-inovatoare-si-cresterea-competitivitatii-microintreprinderilor-prin-programul-regional-sud-est-2021-2027-pentru-arealul-iti-delta-dunarii"
+   "url": "https://regiosudest.ro/ghiduri/prioritatea-1/apeluri-active/stimularea-activitatilor-inovatoare-si-cresterea-competitivitatii-microintreprinderilor-prin-programul-regional-sud-est-2021-2027-pentru-arealul-iti-delta-dunarii",
+   "suma_min": 20000,
+   "suma_max": 200000,
+   "moneda": "EUR",
+   "suma_nota": "nerambursabil, de minimis"
   },
   {
    "id": "prse-7-pacte-integritate",
@@ -216,7 +308,11 @@
    "titlu": "Prioritatea 7 AT – Implementarea Pactelor de integritate în proiectele finanțate prin PR SE 2021-2027",
    "beneficiari": "ONG-uri (asociații/fundații) care acționează ca Monitor Independent",
    "termen": "2027-06-03",
-   "url": "https://regiosudest.ro/ghiduri/prioritatea-7/apeluri-active/apel-de-finantare-privind-implementarea-pactelor-de-integritate-in-cadrul-proiectelor-finantate-prin-pr-se-2021-2027"
+   "url": "https://regiosudest.ro/ghiduri/prioritatea-7/apeluri-active/apel-de-finantare-privind-implementarea-pactelor-de-integritate-in-cadrul-proiectelor-finantate-prin-pr-se-2021-2027",
+   "suma_min": null,
+   "suma_max": null,
+   "moneda": null,
+   "suma_nota": null
   },
   {
    "id": "peo-educatori-defavorizate",
@@ -225,7 +321,11 @@
    "titlu": "Educatori pentru copiii din medii defavorizate – PEO 5.f.3 (termen prelungit)",
    "beneficiari": "Universități cu programe ÎETC, CCD, ISJ/ISMB, CJRAE (lider); parteneri: școli, ONG",
    "termen": "2026-12-11",
-   "url": "https://mfe.gov.ro/ghiduri_peos/ghidul-solicitantului-conditii-specifice-educatori-pentru-copiii-din-medii-defavorizate/"
+   "url": "https://mfe.gov.ro/ghiduri_peos/ghidul-solicitantului-conditii-specifice-educatori-pentru-copiii-din-medii-defavorizate/",
+   "suma_min": 201000,
+   "suma_max": 1313760,
+   "moneda": "EUR",
+   "suma_nota": "valoare eligibilă"
   },
   {
    "id": "peo-universitati-deschise",
@@ -234,7 +334,11 @@
    "titlu": "Universități deschise – PEO 7.e.5 și 7.e.6",
    "beneficiari": "Instituții de învățământ superior acreditate (publice/private); parteneri CDI, firme, ONG, APL",
    "termen": "2026-11-27",
-   "url": "https://mfe.gov.ro/ghiduri_peos/apelurile-de-tip-competitiv-universitati-deschise/"
+   "url": "https://mfe.gov.ro/ghiduri_peos/apelurile-de-tip-competitiv-universitati-deschise/",
+   "suma_min": 201000,
+   "suma_max": 2000000,
+   "moneda": "EUR",
+   "suma_nota": "valoare eligibilă"
   },
   {
    "id": "peo-step-vet",
@@ -243,7 +347,11 @@
    "titlu": "STEP-VET – Formare profesională la locul de muncă pentru elevii din învățământul profesional și tehnic în tehnologii critice (Prioritatea 12)",
    "beneficiari": "Școli profesionale/tehnice/postliceale, structuri ale Min. Educației, parteneri de practică",
    "termen": "2026-12-31",
-   "url": "https://mfe.gov.ro/ghiduri_peos/peo-ghidul-solicitantului-step-vet-formare-profesionala-la-locul-de-munca-pentru-elevii-din-invatamantul-profesional-si-tehnic-in-tehnologii-critice/"
+   "url": "https://mfe.gov.ro/ghiduri_peos/peo-ghidul-solicitantului-step-vet-formare-profesionala-la-locul-de-munca-pentru-elevii-din-invatamantul-profesional-si-tehnic-in-tehnologii-critice/",
+   "suma_min": 201000,
+   "suma_max": 4000000,
+   "moneda": "EUR",
+   "suma_nota": "valoare eligibilă"
   },
   {
    "id": "pids-familii-monoparentale-fagaras",
@@ -252,7 +360,11 @@
    "titlu": "Sprijin pentru familii monoparentale – ITI Țara Făgărașului și Moții (Acțiunea 5.5)",
    "beneficiari": "APL/instituții publice din teritoriul ITI, furnizori sociali, de formare și ocupare acreditați, ONG",
    "termen": "2026-11-27",
-   "url": "https://mfe.gov.ro/ghiduri_pids/ghidul-solicitantului-sprijin-pentru-familii-monoparentale-iti-tara-fagarasului/"
+   "url": "https://mfe.gov.ro/ghiduri_pids/ghidul-solicitantului-sprijin-pentru-familii-monoparentale-iti-tara-fagarasului/",
+   "suma_min": null,
+   "suma_max": null,
+   "moneda": null,
+   "suma_nota": null
   },
   {
    "id": "prcentru-4-1-mobilitate-urbana",
@@ -261,7 +373,11 @@
    "titlu": "Acțiunea 4.1 – Dezvoltarea mobilității urbane durabile în municipiile Regiunii Centru (apel competitiv 2)",
    "beneficiari": "UAT municipii din Regiunea Centru sau parteneriate conduse de municipiu (cu UAT din ZUF/ZM)",
    "termen": "2026-12-21",
-   "url": "https://www.regiocentru.ro/actiuni/4-1-dezvoltarea-mobilitatii-urbane-durabile-in-municipiile-regiunii-centru-apel-competitiv/"
+   "url": "https://www.regiocentru.ro/actiuni/4-1-dezvoltarea-mobilitatii-urbane-durabile-in-municipiile-regiunii-centru-apel-competitiv/",
+   "suma_min": 250000,
+   "suma_max": 15000000,
+   "moneda": "EUR",
+   "suma_nota": "nerambursabil; contribuție proprie min. 2%"
   },
   {
    "id": "prcentru-1-5-1-incubatoare",
@@ -270,7 +386,11 @@
    "titlu": "Intervenția 1.5.1 Incubatoare și acceleratoare de afaceri (apel 2) – PR Centru",
    "beneficiari": "Fondatori de incubatoare (societăți, cooperative etc.), singuri sau cu administratorul incubatorului",
    "termen": "2026-12-21",
-   "url": "https://www.regiocentru.ro/actiuni/1-5-1-incubatoare-si-acceleratoare-de-afaceri-apel-2/"
+   "url": "https://www.regiocentru.ro/actiuni/1-5-1-incubatoare-si-acceleratoare-de-afaceri-apel-2/",
+   "suma_min": 100000,
+   "suma_max": 2000000,
+   "moneda": "EUR",
+   "suma_nota": "finanțare nerambursabilă"
   },
   {
    "id": "prcentru-8-1-regenerare-urbana",
@@ -279,7 +399,11 @@
    "titlu": "Acțiunea 8.1 Dezvoltare urbană integrată – regenerarea spațiilor publice, patrimoniu, infrastructură culturală și turism în municipii (apel 2) – PR Centru",
    "beneficiari": "UAT municipii din Regiunea Centru sau parteneriate având ca lider UAT municipiu",
    "termen": "2026-12-21",
-   "url": "https://www.regiocentru.ro/actiuni/8-1dezvoltare-urbana-integrata-prin-regenerarea-spatiilor-publice-punerea-in-valoare-a-patrimoniului-infrastructurii-culturale-si-a-potentialului-turistic-din-municipiile-regiunii-centru-a/"
+   "url": "https://www.regiocentru.ro/actiuni/8-1dezvoltare-urbana-integrata-prin-regenerarea-spatiilor-publice-punerea-in-valoare-a-patrimoniului-infrastructurii-culturale-si-a-potentialului-turistic-din-municipiile-regiunii-centru-a/",
+   "suma_min": 500000,
+   "suma_max": 7500000,
+   "moneda": "EUR",
+   "suma_nota": "nerambursabil; contribuție proprie min. 2%"
   },
   {
    "id": "prse-1-8-step-imm",
@@ -288,7 +412,11 @@
    "titlu": "Acțiunea 1.8 – Dezvoltarea întreprinderilor care contribuie la obiectivele platformei STEP (preselecție fișe de proiect, 10 mil. EUR)",
    "beneficiari": "IMM-uri cu sediu în Sud-Est și minimum un an fiscal de activitate",
    "termen": "2026-11-30",
-   "url": "https://regiosudest.ro/ghiduri/prioritatea-1/apeluri-active/actiunea-1-8-dezvoltarea-intreprinderilor-care-contribuie-la-obiectivele-platformei-step-finantata-in-cadrul-prioritatii-1-a-sprijinirea-investitiilor-care-contribuie-la-obiectivele-platformei-step-14-10-2026"
+   "url": "https://regiosudest.ro/ghiduri/prioritatea-1/apeluri-active/actiunea-1-8-dezvoltarea-intreprinderilor-care-contribuie-la-obiectivele-platformei-step-finantata-in-cadrul-prioritatii-1-a-sprijinirea-investitiilor-care-contribuie-la-obiectivele-platformei-step-14-10-2026",
+   "suma_min": null,
+   "suma_max": null,
+   "moneda": null,
+   "suma_nota": null
   },
   {
    "id": "prsudmuntenia-inovare-imm-preselectie",
@@ -297,7 +425,11 @@
    "titlu": "Sprijinirea investițiilor în cercetare-inovare în IMM – preselecție prin chestionar online (PRSM/1083/PRSM_P1/OP1)",
    "beneficiari": "IMM-uri (societăți/cooperative) cu loc de implementare în Sud-Muntenia, singure sau în parteneriat",
    "termen": "2026-11-20",
-   "url": "https://2021-2027.adrmuntenia.ro/inovare-immuri/static/654"
+   "url": "https://2021-2027.adrmuntenia.ro/inovare-immuri/static/654",
+   "suma_min": null,
+   "suma_max": null,
+   "moneda": null,
+   "suma_nota": null
   }
  ]
 }
