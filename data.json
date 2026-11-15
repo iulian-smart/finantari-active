@@ -1,5 +1,5 @@
 {
- "actualizat": "2026-11-14T10:03:31+02:00",
+ "actualizat": "2026-11-15T10:24:31+02:00",
  "sursa": "Centrul de Dezvoltare SMART",
  "apeluri": [
   {
@@ -364,6 +364,17 @@
    "descriere": "Apelul PRSM/1083/PRSM_P1/OP1 din Programul Regional Sud-Muntenia 2021-2027 finanțează proiecte de cercetare-dezvoltare-inovare de produs, proces sau serviciu în IMM-uri, în cel puțin un domeniu de specializare inteligentă RIS3 Sud-Muntenia și cu un nivel de maturitate tehnologică peste TRL 4; opțional, proiectul poate include formarea angajaților. Pot participa IMM-uri (societăți și cooperative), singure, în parteneriat cu alte IMM-uri sau, ca lider, cu întreprinderi mari, cu locul de implementare înregistrat în regiune. Valoarea eligibilă este de 30.000–100.000 euro, respectiv până la 150.000 euro pentru firmele care au mai implementat un proiect de cercetare-inovare, sub formă de ajutor de minimis cu intensitate de până la 100%. Alocarea estimată este de 29.882.352,94 euro. Etapa curentă este un chestionar online de preselecție, prelungit până la 20 noiembrie 2026. Firmele eligibile sunt alese prin tragere la sorți pe județe, proporțional cu numărul de aplicații, în prezența unui notar. Doar firmele selectate depun proiectul complet în MySMIS, estimativ între decembrie 2026 și mai 2027.",
    "termen": "2026-11-20",
    "url": "https://2021-2027.adrmuntenia.ro/inovare-immuri/static/654"
+  },
+  {
+   "id": "prnordest-p1-vinnovate-apel3",
+   "program": "Program Regional",
+   "regiune": "Nord-Est",
+   "titlu": "P1 – VInnovate: colaborare interregională (apel 3)",
+   "beneficiari": "IMM-uri din Regiunea Nord-Est, lider sau partener în consorții interregionale (Inițiativa Vanguard)",
+   "suma": "max. = alocarea apelului (1.126.861 EUR)",
+   "descriere": "Finanțează proiecte de cercetare-dezvoltare-inovare derulate de companii împreună cu organizații din Inițiativa Vanguard, pentru noi produse, servicii și tehnologii și îmbunătățirea proceselor de producție. Proiectele trebuie să avanseze maturitatea tehnologică (TRL5–6, TRL6–7 sau TRL7–8); preselecția în apelul interregional Vanguard este obligatorie.",
+   "termen": "2026-12-04",
+   "url": "https://regionordest.ro/apel-proiect/p1-vinnovate-apel-3/"
   }
  ]
 }
