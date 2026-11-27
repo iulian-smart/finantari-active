@@ -1,18 +1,7 @@
 {
- "actualizat": "2026-11-26T10:24:23+02:00",
+ "actualizat": "2026-11-27T10:23:55+02:00",
  "sursa": "Centrul de Dezvoltare SMART",
  "apeluri": [
-  {
-   "id": "prnordest-p3-rezidential-orase",
-   "program": "Program Regional",
-   "regiune": "Nord-Est",
-   "titlu": "P3 – Eficiență energetică clădiri rezidențiale – Orașe",
-   "beneficiari": "UAT orașe din Regiunea Nord-Est (blocuri de locuințe)",
-   "suma": "200.000 – 1.000.000 EUR nerambursabil",
-   "descriere": "Apelul finanțează creșterea eficienței energetice a blocurilor de locuințe (clădiri rezidențiale multifamiliale) din orașele Regiunii Nord-Est, cu scopul reducerii consumului de energie și a emisiilor de gaze cu efect de seră. Investiția de bază obligatorie este îmbunătățirea performanței energetice a anvelopei, la care se pot adăuga tâmplărie termoizolantă, sisteme de ventilație, surse regenerabile pentru încălzire și apă caldă, sisteme de management energetic, modernizarea lifturilor și iluminat LED în spațiile comune. Lucrările conexe, precum reparații de fațadă, acoperiș sau instalații, sunt eligibile în limita a 15%. Pot depune doar autoritățile publice locale ale orașelor din regiune, nu asociațiile de proprietari sau proprietarii individuali; municipiile au un apel separat. Finanțarea nerambursabilă pe proiect este între 200.000 și 1.000.000 de euro, iar bugetul apelului este de 8,4 milioane de euro. Apelul este competitiv, cu depunere continuă în MySMIS2021 până la termenul-limită, deschis din 17 august 2026, iar depunerea unei cereri nu garantează finanțarea.",
-   "termen": "2026-11-16",
-   "url": "https://regionordest.ro/apel-proiect/p3-eficienta-energetica-cladiri-rezidentiale-orase/"
-  },
   {
    "id": "prnordest-p3-rezidential-mrj",
    "program": "Program Regional",
@@ -375,6 +364,17 @@
    "descriere": "Finanțează proiecte de cercetare-dezvoltare-inovare derulate de companii împreună cu organizații din Inițiativa Vanguard, pentru noi produse, servicii și tehnologii și îmbunătățirea proceselor de producție. Proiectele trebuie să avanseze maturitatea tehnologică (TRL5–6, TRL6–7 sau TRL7–8); preselecția în apelul interregional Vanguard este obligatorie.",
    "termen": "2026-12-04",
    "url": "https://regionordest.ro/apel-proiect/p1-vinnovate-apel-3/"
+  },
+  {
+   "id": "prcentru-2-2-digitalizare-imm",
+   "program": "Program Regional",
+   "regiune": "Centru",
+   "titlu": "Acțiunea 2.2 – Întreprinderi digitale pentru o economie avansată (digitalizare IMM, apel 2) – depunere de la 02.12.2026, ora 12:00",
+   "beneficiari": "IMM-uri din Alba, Brașov, Covasna, Harghita, Mureș, Sibiu, cu min. 1 an fiscal, profit și 1 salariat",
+   "suma": "15.000 – 200.000 EUR nerambursabil (max. 90%, minimis)",
+   "descriere": "Finanțează digitalizarea internă a firmelor: sisteme ERP, CRM, RPA, PLM, IoT, realitate virtuală/augmentată și inteligență artificială, comunicare digitală cu clienții și furnizorii, software și abonamente cloud pe durata implementării, instruire și auditul de maturitate digitală (obligatoriu). Nu se finanțează utilaje de producție, clădiri sau autovehicule.",
+   "termen": "2027-02-02",
+   "url": "https://www.regiocentru.ro/actiuni/2-2-intreprinderi-digitale-pentru-o-economie-avansata-apel-2/"
   }
  ]
 }
